@@ -93,7 +93,7 @@ export default function AdminLogin() {
           )}
           
           <form onSubmit={handleSubmit} className="space-y-6">
-            <div>
+            <div className="text-gray-800">
               <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
                 Email Address
               </label>
@@ -107,7 +107,7 @@ export default function AdminLogin() {
                   type="email"
                   autoComplete="email"
                   required
-                  className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md"
+                  className="focus:ring-blue-500  p-2 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md"
                   placeholder="admin@example.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -116,11 +116,11 @@ export default function AdminLogin() {
               </div>
             </div>
 
-            <div>
+            <div className="text-gray-800">
               <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1">
                 Password
               </label>
-              <div className="relative rounded-md shadow-sm">
+              <div className="relative rounded-md shadow-sm ">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                   <FaLock className="h-5 w-5 text-gray-400" />
                 </div>
@@ -130,7 +130,7 @@ export default function AdminLogin() {
                   type="password"
                   autoComplete="current-password"
                   required
-                  className="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md"
+                  className="focus:ring-blue-500 p-2 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md"
                   placeholder="••••••••"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}

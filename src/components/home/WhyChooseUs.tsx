@@ -44,10 +44,10 @@ export default function WhyChooseUs() {
         <div className="space-y-16">
           {/* Startup Growth Section */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
+            <div className="space-y-6 text-black">
               <div className="flex items-center gap-2">
                 <FaRocket className="h-6 w-6 text-blue-600" />
-                <h3 className="text-2xl font-bold text-gray-900">Startup Growth Toolkit</h3>
+                <h3 className="text-2xl font-bold  ">Startup Growth Toolkit</h3>
               </div>
               <p className="text-gray-600">
                 Access our library of resources including pitch deck templates, term sheet examples, 
